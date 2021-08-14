@@ -42,7 +42,7 @@ async function fetchMovies() {
     elMoviesList.innerHTML = "<img src='./images/loader.svg' alt='Spinner' />";
 
     const response = await fetch(
-      "http://www.omdbapi.com/?apikey=" +
+      "https://www.omdbapi.com/?apikey=" +
         API_KEY +
         "&s=" +
         searchQuery +
