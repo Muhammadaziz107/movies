@@ -21,7 +21,7 @@
 
 .movie {
   width: 280px;
-  height: 520px;
+  height: 550px;
   margin: 20px;
   padding: 20px;
   border: 1px solid rgba(99, 99, 99, 0.2);
@@ -87,4 +87,16 @@
   margin: 20px 50px;
   border-bottom-right-radius: 8px;
   border-top-left-radius: 8px;
+}
+.bookmark-btn {
+  background-color: #4caf50;
+  border: 0;
+  cursor: pointer;
+  padding: 10px 30px;
+}
+.bookmark-btn:hover {
+  opacity: 0.8;
+}
+.bookmark-btn:active {
+  opacity: 0.6;
 }
