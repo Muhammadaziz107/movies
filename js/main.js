@@ -119,3 +119,17 @@ elMoviesSelect.addEventListener("change", evt => {
 
   fetchMovies();
 });
+
+// =======slider=======
+const slider = tns({
+  container: ".slider__list",
+  items: 1,
+  slideBy: 1,
+  mouseDrag: true,
+  swipeAngle: false,
+  autoplay: true,
+  speed: 500,
+  controlsContainer: ".container-controllers",
+  autoplayButtonOutput: false,
+  autoplayTimeout: 4000,
+});

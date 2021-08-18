@@ -138,3 +138,11 @@
 }
 
 /*# sourceMappingURL=sourcemaps/tiny-slider.css.map */
+
+.slider__list {
+  display: flex;
+}
+
+.slider__item {
+  flex-shrink: 0;
+}
